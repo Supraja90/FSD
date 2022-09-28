@@ -1,0 +1,32 @@
+.row {
+    border: solid 1px black;
+    margin-top: 50px;
+}
+[class*="col-"], .col {
+    border: solid 1px red;
+}
+i{
+font-size: x-large;
+}
+* {
+  box-sizing: border-box;
+}
+
+.row {
+  display: flex;
+}
+
+/* Create three equal columns that sits next to each other */
+.column {
+  flex: 100%;
+  padding: 5px;
+}
+p{
+  color: aliceblue;
+}
+.ha{
+    color:black;
+}
+ .lolo{
+  color:black
+ }
